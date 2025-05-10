@@ -1,0 +1,106 @@
+{
+  "app": {
+    "name": "UzbCompare",
+    "tagline": "O'zbekistonda eng yaxshi narxlarni toping"
+  },
+  "nav": {
+    "home": "Bosh sahifa",
+    "categories": "Kategoriyalar",
+    "deals": "Eng yaxshi takliflar",
+    "profile": "Mening profilim",
+    "favorites": "Sevimlilar",
+    "settings": "Sozlamalar",
+    "admin": "Admin paneli",
+    "login": "Kirish",
+    "register": "Ro'yxatdan o'tish",
+    "logout": "Chiqish"
+  },
+  "search": {
+    "placeholder": "Mahsulotlarni qidirish...",
+    "button": "Qidirish",
+    "noResults": "Qidiruv natijasi topilmadi",
+    "suggestions": "Ommabop qidiruvlar",
+    "categories": "Kategoriyalarda qidirish"
+  },
+  "product": {
+    "price": "Narx",
+    "from": "dan",
+    "inStock": "Mavjud",
+    "outOfStock": "Mavjud emas",
+    "ratings": "Baholash",
+    "reviews": "Sharhlar",
+    "specifications": "Xususiyatlari",
+    "description": "Tavsif",
+    "compareFrom": "Narxlarni solishtirish",
+    "vendors": "sotuvchilar",
+    "addToFavorites": "Sevimlilarga qo'shish",
+    "removeFromFavorites": "Sevimlilardan olib tashlash",
+    "priceHistory": "Narx tarixi",
+    "priceAlert": "Narx ogohlantirish",
+    "similar": "O'xshash mahsulotlar"
+  },
+  "category": {
+    "all": "Barcha kategoriyalar",
+    "electronics": "Elektronika",
+    "computers": "Kompyuterlar",
+    "phones": "Telefonlar va planshetlar",
+    "household": "Uy-ro'zg'or buyumlari",
+    "appliances": "Maishiy texnika",
+    "fashion": "Moda",
+    "beauty": "Go'zallik va salomatlik",
+    "sports": "Sport va hordiq",
+    "toys": "O'yinchoqlar va o'yinlar",
+    "auto": "Avto va asboblar",
+    "grocery": "Oziq-ovqat"
+  },
+  "filters": {
+    "title": "Filtrlar",
+    "price": "Narx oralig'i",
+    "brand": "Brend",
+    "rating": "Reyting",
+    "availability": "Mavjudligi",
+    "vendor": "Sotuvchi",
+    "clear": "Tozalash",
+    "apply": "Qo'llash",
+    "sort": "Saralash",
+    "sortOptions": {
+      "relevant": "Eng mos",
+      "priceLow": "Narx: arzondan qimmatga",
+      "priceHigh": "Narx: qimmatdan arzonga",
+      "newest": "Eng yangi",
+      "rating": "Eng yuqori baholanganlar"
+    }
+  },
+  "admin": {
+    "dashboard": "Dashboard",
+    "products": "Mahsulotlar",
+    "categories": "Kategoriyalar",
+    "vendors": "Sotuvchilar",
+    "users": "Foydalanuvchilar",
+    "settings": "Sozlamalar",
+    "statistics": "Statistika",
+    "addNew": "Yangi qo'shish",
+    "edit": "Tahrirlash",
+    "delete": "O'chirish",
+    "save": "Saqlash",
+    "cancel": "Bekor qilish"
+  },
+  "user": {
+    "profile": "Profil",
+    "favorites": "Mening sevimlilarim",
+    "priceAlerts": "Narx ogohlantirishlari",
+    "history": "Ko'rish tarixi",
+    "settings": "Hisob sozlamalari"
+  },
+  "footer": {
+    "about": "Biz haqimizda",
+    "contact": "Aloqa",
+    "terms": "Foydalanish shartlari",
+    "privacy": "Maxfiylik siyosati",
+    "faq": "Ko'p so'raladigan savollar",
+    "forVendors": "Sotuvchilar uchun",
+    "careers": "Karyera",
+    "blog": "Blog",
+    "copyright": "© 2025 UzbCompare. Barcha huquqlar himoyalangan."
+  }
+}

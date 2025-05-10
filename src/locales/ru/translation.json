@@ -1,0 +1,106 @@
+{
+  "app": {
+    "name": "UzbCompare",
+    "tagline": "Найдите лучшие цены в Узбекистане"
+  },
+  "nav": {
+    "home": "Главная",
+    "categories": "Категории",
+    "deals": "Лучшие предложения",
+    "profile": "Мой профиль",
+    "favorites": "Избранное",
+    "settings": "Настройки",
+    "admin": "Панель администратора",
+    "login": "Вход",
+    "register": "Регистрация",
+    "logout": "Выход"
+  },
+  "search": {
+    "placeholder": "Поиск товаров...",
+    "button": "Поиск",
+    "noResults": "По вашему запросу ничего не найдено",
+    "suggestions": "Популярные запросы",
+    "categories": "Поиск по категориям"
+  },
+  "product": {
+    "price": "Цена",
+    "from": "от",
+    "inStock": "В наличии",
+    "outOfStock": "Нет в наличии",
+    "ratings": "Рейтинг",
+    "reviews": "Отзывы",
+    "specifications": "Характеристики",
+    "description": "Описание",
+    "compareFrom": "Сравнить цены от",
+    "vendors": "продавцов",
+    "addToFavorites": "Добавить в избранное",
+    "removeFromFavorites": "Удалить из избранного",
+    "priceHistory": "История цен",
+    "priceAlert": "Уведомление о цене",
+    "similar": "Похожие товары"
+  },
+  "category": {
+    "all": "Все категории",
+    "electronics": "Электроника",
+    "computers": "Компьютеры",
+    "phones": "Телефоны и планшеты",
+    "household": "Товары для дома",
+    "appliances": "Бытовая техника",
+    "fashion": "Мода",
+    "beauty": "Красота и здоровье",
+    "sports": "Спорт и отдых",
+    "toys": "Игрушки и игры",
+    "auto": "Авто и инструменты",
+    "grocery": "Продукты питания"
+  },
+  "filters": {
+    "title": "Фильтры",
+    "price": "Диапазон цен",
+    "brand": "Бренд",
+    "rating": "Рейтинг",
+    "availability": "Наличие",
+    "vendor": "Продавец",
+    "clear": "Очистить",
+    "apply": "Применить",
+    "sort": "Сортировать по",
+    "sortOptions": {
+      "relevant": "По релевантности",
+      "priceLow": "Цена: по возрастанию",
+      "priceHigh": "Цена: по убыванию",
+      "newest": "Сначала новые",
+      "rating": "По рейтингу"
+    }
+  },
+  "admin": {
+    "dashboard": "Панель управления",
+    "products": "Товары",
+    "categories": "Категории",
+    "vendors": "Продавцы",
+    "users": "Пользователи",
+    "settings": "Настройки",
+    "statistics": "Статистика",
+    "addNew": "Добавить новый",
+    "edit": "Редактировать",
+    "delete": "Удалить",
+    "save": "Сохранить",
+    "cancel": "Отмена"
+  },
+  "user": {
+    "profile": "Профиль",
+    "favorites": "Мое избранное",
+    "priceAlerts": "Уведомления о ценах",
+    "history": "История просмотров",
+    "settings": "Настройки аккаунта"
+  },
+  "footer": {
+    "about": "О нас",
+    "contact": "Контакты",
+    "terms": "Условия использования",
+    "privacy": "Политика конфиденциальности",
+    "faq": "FAQ",
+    "forVendors": "Для продавцов",
+    "careers": "Карьера",
+    "blog": "Блог",
+    "copyright": "© 2025 UzbCompare. Все права защищены."
+  }
+}

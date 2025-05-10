@@ -1,0 +1,119 @@
+{
+  "app": {
+    "name": "UzbCompare",
+    "tagline": "Find the best prices in Uzbekistan"
+  },
+  "nav": {
+    "home": "Home",
+    "categories": "Categories",
+    "deals": "Best Deals",
+    "profile": "My Profile",
+    "favorites": "Favorites",
+    "settings": "Settings",
+    "admin": "Admin Dashboard",
+    "login": "Log In",
+    "shopLogin": "Shop Login",
+    "register": "Register",
+    "logout": "Log Out"
+  },
+  "auth": {
+    "signIn": "Sign In",
+    "shopSignIn": "Shop Sign In",
+    "signingIn": "Signing in...",
+    "email": "Email",
+    "password": "Password",
+    "noAccount": "Don't have an account?",
+    "noShopAccount": "Want to sell on UzbCompare?",
+    "contactSupport": "Contact Support",
+    "signUp": "Sign Up",
+    "signOut": "Sign Out"
+  },
+  "search": {
+    "placeholder": "Search for products...",
+    "button": "Search",
+    "noResults": "No results found for your search",
+    "suggestions": "Popular searches",
+    "categories": "Search in categories"
+  },
+  "product": {
+    "price": "Price",
+    "from": "from",
+    "inStock": "In Stock",
+    "outOfStock": "Out of Stock",
+    "ratings": "Ratings",
+    "reviews": "Reviews",
+    "specifications": "Specifications",
+    "description": "Description",
+    "compareFrom": "Compare prices from",
+    "vendors": "vendors",
+    "addToFavorites": "Add to Favorites",
+    "removeFromFavorites": "Remove from Favorites",
+    "priceHistory": "Price History",
+    "priceAlert": "Set Price Alert",
+    "similar": "Similar Products"
+  },
+  "category": {
+    "all": "All Categories",
+    "electronics": "Electronics",
+    "computers": "Computers",
+    "phones": "Phones & Tablets",
+    "household": "Household",
+    "appliances": "Appliances",
+    "fashion": "Fashion",
+    "beauty": "Beauty & Health",
+    "sports": "Sports & Outdoors",
+    "toys": "Toys & Games",
+    "auto": "Auto & Tools",
+    "grocery": "Grocery"
+  },
+  "filters": {
+    "title": "Filters",
+    "price": "Price Range",
+    "brand": "Brand",
+    "rating": "Rating",
+    "availability": "Availability",
+    "vendor": "Vendor",
+    "clear": "Clear All",
+    "apply": "Apply Filters",
+    "sort": "Sort by",
+    "sortOptions": {
+      "relevant": "Most Relevant",
+      "priceLow": "Price: Low to High",
+      "priceHigh": "Price: High to Low",
+      "newest": "Newest First",
+      "rating": "Highest Rated"
+    }
+  },
+  "admin": {
+    "dashboard": "Dashboard",
+    "products": "Products",
+    "categories": "Categories",
+    "vendors": "Vendors",
+    "users": "Users",
+    "settings": "Settings",
+    "statistics": "Statistics",
+    "addNew": "Add New",
+    "edit": "Edit",
+    "delete": "Delete",
+    "save": "Save Changes",
+    "cancel": "Cancel"
+  },
+  "user": {
+    "profile": "Profile",
+    "favorites": "My Favorites",
+    "priceAlerts": "Price Alerts",
+    "history": "Browsing History",
+    "settings": "Account Settings"
+  },
+  "footer": {
+    "about": "About Us",
+    "contact": "Contact",
+    "terms": "Terms of Service",
+    "privacy": "Privacy Policy",
+    "faq": "FAQ",
+    "forVendors": "For Vendors",
+    "careers": "Careers",
+    "blog": "Blog",
+    "copyright": "© 2025 UzbCompare. All rights reserved."
+  }
+}
