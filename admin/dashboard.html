@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard - UzbCompare</title>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="/admin/styles.css">
+</head>
+<body class="admin-layout">
+    <!-- Admin Sidebar -->
+    <aside class="admin-sidebar">
+        <div class="sidebar-header">
+            <a href="/" class="logo">UzbCompare</a>
+            <span class="admin-badge">Admin</span>
+        </div>
+        
+        <nav class="sidebar-nav">
+            <a href="/admin/dashboard.html" class="nav-item active">
+                <span class="nav-icon">📊</span>
+                Dashboard
+            </a>
+            <a href="/admin/products.html" class="nav-item">
+                <span class="nav-icon">📦</span>
+                Products
+            </a>
+            <a href="/admin/categories.html" class="nav-item">
+                <span class="nav-icon">🏷️</span>
+                Categories
+            </a>
+            <a href="/admin/vendors.html" class="nav-item">
+                <span class="nav-icon">🏪</span>
+                Vendors
+            </a>
+            <a href="/admin/users.html" class="nav-item">
+                <span class="nav-icon">👥</span>
+                Users
+            </a>
+            <a href="/admin/statistics.html" class="nav-item">
+                <span class="nav-icon">📈</span>
+                Statistics
+            </a>
+            <a href="/admin/settings.html" class="nav-item">
+                <span class="nav-icon">⚙️</span>
+                Settings
+            </a>
+        </nav>
+        
+        <div class="sidebar-footer">
+            <button id="logoutBtn" class="btn btn-outline w-full">
+                <span class="nav-icon">🚪</span>
+                Logout
+            </button>
+        </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="admin-main">
+        <header class="admin-header">
+            <div class="header-content">
+                <h1>Dashboard</h1>
+                <div class="header-actions">
+                    <div class="search-box">
+                        <input type="text" placeholder="Search...">
+                        <button class="search-btn">🔍</button>
+                    </div>
+                    <button class="notifications-btn">🔔</button>
+                    <div class="user-menu">
+                        <img src="https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&w=100" alt="Admin" class="user-avatar">
+                        <span>Admin User</span>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="admin-content">
+            <!-- Stats Cards -->
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-icon" style="background-color: var(--color-primary-100); color: var(--color-primary-500)">👥</div>
+                    <div class="stat-info">
+                        <h3>Total Users</h3>
+                        <p class="stat-value">12,842</p>
+                        <span class="stat-trend positive">+12.5% vs last month</span>
+                    </div>
+                </div>
+                
+                <div class="stat-card">
+                    <div class="stat-icon" style="background-color: var(--color-success-100); color: var(--color-success-500)">🏪</div>
+                    <div class="stat-info">
+                        <h3>Active Vendors</h3>
+                        <p class="stat-value">87</p>
+                        <span class="stat-trend positive">+8.1% vs last month</span>
+                    </div>
+                </div>
+                
+                <div class="stat-card">
+                    <div class="stat-icon" style="background-color: var(--color-warning-100); color: var(--color-warning-500)">📦</div>
+                    <div class="stat-info">
+                        <h3>Total Products</h3>
+                        <p class="stat-value">1,259</p>
+                        <span class="stat-trend positive">+32.7% vs last month</span>
+                    </div>
+                </div>
+                
+                <div class="stat-card">
+                    <div class="stat-icon" style="background-color: var(--color-error-100); color: var(--color-error-500)">👁️</div>
+                    <div class="stat-info">
+                        <h3>Page Views</h3>
+                        <p class="stat-value">584,295</p>
+                        <span class="stat-trend negative">-2.4% vs last month</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Recent Activity -->
+            <div class="card">
+                <div class="card-header">
+                    <h2>Recent Activity</h2>
+                </div>
+                <div class="activity-list">
+                    <div class="activity-item">
+                        <div class="activity-icon">📦</div>
+                        <div class="activity-content">
+                            <h4>New product added</h4>
+                            <p>Added "Apple iPhone 14 Pro Max 256GB" to the database</p>
+                            <span class="activity-time">2 hours ago</span>
+                        </div>
+                    </div>
+                    <div class="activity-item">
+                        <div class="activity-icon">💰</div>
+                        <div class="activity-content">
+                            <h4>Price change detected</h4>
+                            <p>Price drop for "Samsung Galaxy S22 Ultra" from UZS 9,200,000 to UZS 8,700,000</p>
+                            <span class="activity-time">4 hours ago</span>
+                        </div>
+                    </div>
+                    <div class="activity-item">
+                        <div class="activity-icon">🏪</div>
+                        <div class="activity-content">
+                            <h4>New vendor joined</h4>
+                            <p>Vendor "ElectroMart" has been approved and added to the platform</p>
+                            <span class="activity-time">7 hours ago</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Quick Stats -->
+            <div class="quick-stats">
+                <div class="card">
+                    <div class="card-header">
+                        <h2>Quick Stats</h2>
+                    </div>
+                    <div class="stats-list">
+                        <div class="stat-item">
+                            <div class="stat-label">
+                                <span class="stat-icon">💰</span>
+                                <span>Total Revenue</span>
+                            </div>
+                            <span class="stat-value">75,245,000 UZS</span>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-label">
+                                <span class="stat-icon">⏱️</span>
+                                <span>Avg. Time on Site</span>
+                            </div>
+                            <span class="stat-value">3m 42s</span>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-label">
+                                <span class="stat-icon">📱</span>
+                                <span>Top Category</span>
+                            </div>
+                            <span class="stat-value">Smartphones</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="/admin/js/admin.js" type="module"></script>
+</body>
+</html>
