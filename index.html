@@ -1,17 +1,191 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Uzbekistan's premier price comparison website. Find the best deals across multiple vendors." />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Uzbekistan's premier price comparison website. Find the best deals across multiple vendors.">
     <title>UzbCompare - Find Best Prices in Uzbekistan</title>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <header class="navbar">
+        <div class="container">
+            <a href="/" class="logo">UzbCompare</a>
+            <nav class="nav-links">
+                <a href="/" class="nav-link">Home</a>
+                <a href="/categories" class="nav-link">Categories</a>
+                <a href="/deals" class="nav-link">Deals</a>
+            </nav>
+            <div class="nav-actions">
+                <button id="searchToggle" class="btn-icon">
+                    <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                        <path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                    </svg>
+                </button>
+                <button id="loginBtn" class="btn btn-outline">Log In</button>
+                <button id="shopLoginBtn" class="btn btn-primary">Shop Login</button>
+                <div class="language-switcher">
+                    <button id="langToggle" class="btn-icon">
+                        <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                            <path d="M12 21a9 9 0 100-18 9 9 0 000 18z"></path>
+                            <path d="M3.6 9h16.8M3.6 15h16.8M12 3a15 15 0 014 10 15 15 0 01-4 10 15 15 0 01-4-10 15 15 0 014-10z"></path>
+                        </svg>
+                        <span>English</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Search Bar (Hidden by default) -->
+    <div id="searchBar" class="search-bar hidden">
+        <div class="container">
+            <form id="searchForm" class="search-form">
+                <input type="text" placeholder="Search products..." class="search-input">
+                <button type="submit" class="btn btn-primary">Search</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Find the Best Prices in Uzbekistan</h1>
+            <p>Compare prices across multiple vendors and save money on your purchases</p>
+            <form id="heroSearchForm" class="hero-search">
+                <input type="text" placeholder="Search for products..." class="hero-search-input">
+                <button type="submit" class="btn btn-accent">Search</button>
+            </form>
+            <div class="search-suggestions">
+                <span>Popular searches:</span>
+                <button class="suggestion-tag">Smartphone</button>
+                <button class="suggestion-tag">Laptop</button>
+                <button class="suggestion-tag">Headphones</button>
+                <button class="suggestion-tag">Television</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="categories">
+        <div class="container">
+            <h2>Categories</h2>
+            <div class="categories-grid">
+                <!-- Categories will be populated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Popular Products Section -->
+    <section class="products">
+        <div class="container">
+            <div class="section-header">
+                <h2>Popular Deals</h2>
+                <a href="/deals" class="view-all">View All</a>
+            </div>
+            <div class="products-grid">
+                <!-- Products will be populated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h3>UzbCompare</h3>
+                    <p>Your trusted price comparison platform in Uzbekistan</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link">Facebook</a>
+                        <a href="#" class="social-link">Twitter</a>
+                        <a href="#" class="social-link">Instagram</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Categories</h3>
+                    <ul>
+                        <li><a href="/category/electronics">Electronics</a></li>
+                        <li><a href="/category/phones">Phones</a></li>
+                        <li><a href="/category/computers">Computers</a></li>
+                        <li><a href="/category/appliances">Appliances</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Information</h3>
+                    <ul>
+                        <li><a href="/about">About Us</a></li>
+                        <li><a href="/contact">Contact</a></li>
+                        <li><a href="/terms">Terms of Service</a></li>
+                        <li><a href="/privacy">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <ul>
+                        <li>Email: support@uzbcompare.uz</li>
+                        <li>Phone: +998 90 123 45 67</li>
+                        <li>Address: Tashkent, Uzbekistan</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 UzbCompare. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Login Modal -->
+    <div id="loginModal" class="modal hidden">
+        <div class="modal-overlay"></div>
+        <div class="modal-content">
+            <button class="modal-close">&times;</button>
+            <h2>Sign In</h2>
+            <form id="loginForm" class="auth-form">
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" required>
+                </div>
+                <button type="submit" class="btn btn-primary w-full">Sign In</button>
+            </form>
+            <p class="auth-footer">
+                Don't have an account? <a href="#" id="signupLink">Sign Up</a>
+            </p>
+        </div>
+    </div>
+
+    <!-- Shop Login Modal -->
+    <div id="shopLoginModal" class="modal hidden">
+        <div class="modal-overlay"></div>
+        <div class="modal-content">
+            <button class="modal-close">&times;</button>
+            <h2>Shop Sign In</h2>
+            <form id="shopLoginForm" class="auth-form">
+                <div class="form-group">
+                    <label for="shopEmail">Email</label>
+                    <input type="email" id="shopEmail" required>
+                </div>
+                <div class="form-group">
+                    <label for="shopPassword">Password</label>
+                    <input type="password" id="shopPassword" required>
+                </div>
+                <button type="submit" class="btn btn-primary w-full">Sign In</button>
+            </form>
+            <p class="auth-footer">
+                Want to sell on UzbCompare? <a href="mailto:support@uzbcompare.uz">Contact Support</a>
+            </p>
+        </div>
+    </div>
+
+    <script src="/js/app.js" type="module"></script>
+</body>
 </html>
